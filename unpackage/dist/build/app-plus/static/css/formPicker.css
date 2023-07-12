@@ -1,0 +1,43 @@
+.form_picker_block{
+	display: flex;
+	margin-bottom: 20rpx;
+	width: 88%;
+	justify-content: space-between;
+	margin-left: 50rpx;
+	height: 55rpx;
+	font-size: 35rpx;
+}
+.form_picker_style{
+	display: flex;
+	align-items: center;
+}
+.form_picker_plus{
+	color: red;
+}
+.form_picker_name{
+	font-size: 35rpx;
+	line-height: 30px;
+}
+.form_picker_frame_block{
+	width: 50%;
+	border: 1px solid rgb(150, 150, 150);
+	border-radius: 3px; 
+	text-overflow: ellipsis;
+}
+.form_picker_frame{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.form_picker_self{
+	height: 100%;
+	margin-left: 20rpx;
+	font-size: 35rpx;
+	display: -webkit-box; /*弹性伸缩盒子模型显示*/
+	-webkit-box-orient: vertical; /*排列方式*/ 
+	-webkit-line-clamp: 1; /*显示文本行数(这里控制多少行隐藏)*/
+	overflow: hidden; /*溢出隐藏*/
+}
+.bottom_icon_style{
+	margin-right: 10rpx;
+}

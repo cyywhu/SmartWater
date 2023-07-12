@@ -1,0 +1,63 @@
+.step_style{
+	margin-top: 40rpx;
+}
+.search_block{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.search_input{
+	margin-left: 40rpx;
+}
+.search_style{
+	margin-top: 30rpx;
+	width: 90%;
+	height: 5.5vh;
+	border: 1px solid rgb(150, 150, 150);
+	border-radius: 100rpx;
+	display: flex;
+	align-items: center;
+}
+.scroll_block{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50rpx;
+}
+.scroll_block_item{
+	width: 100%;
+	display: -webkit-box; /*弹性伸缩盒子模型显示*/
+	-webkit-box-orient: vertical; /*排列方式*/ 
+	-webkit-line-clamp: 1; /*显示文本行数(这里控制多少行隐藏)*/
+	overflow: hidden; /*溢出隐藏*/
+}
+.scroll-Y{
+	height: 800rpx;
+	margin-top: 30rpx;
+	width: 85%;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+	padding-top: 10rpx;
+}
+.scroll_words1{
+	height: 100rpx;
+	display: flex;
+	align-items: center;
+	padding-left: 50rpx;
+	font-size: 40rpx;
+	line-height: 30px;
+	letter-spacing: 3px;
+}
+.scroll_words2{
+	height: 100rpx;
+	display: flex;
+	align-items: center;
+	padding-left: 50rpx;
+	font-size: 40rpx;
+	line-height: 30px;
+	letter-spacing: 3px;
+	background: rgb(198, 218, 192);
+	border-radius: 10px;
+}

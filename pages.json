@@ -1,0 +1,192 @@
+{
+	"easycom": {
+			"autoscan": true,
+			"custom": {
+				// uni-ui 规则如下配置
+				"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+			}
+		},
+		
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"app-plus" : {
+				    "titleNView" : false
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/home/home",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "首页",
+               "app-plus" : {
+                   "titleNView" : false
+               }
+            }
+            
+        },
+		{
+		    "path" : "pages/config/config",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "配置方案",
+				"app-plus" : {
+				    "titleNView" : false
+				}
+		    }
+		    
+		},
+		{
+		    "path" : "pages/query/query",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "数据查询",
+				"app-plus" : {
+				    "titleNView" : false
+				}
+		    }
+		    
+		},
+		{
+		    "path" : "pages/artificial/artificial",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "人工置数",
+				"app-plus" : {
+				    "titleNView" : false
+				}
+		    }
+		    
+		},
+		{
+		    "path" : "pages/tools/tools",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "工具箱",
+				"app-plus" : {
+				    "titleNView" : false
+				}
+		    }
+		    
+		},
+		{
+		    "path" : "pages/config/importConfig",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "导入配置方案",
+				"app-plus" : {
+				    "titleNView" : false
+				}
+		    }
+		},
+		{
+		    "path" : "pages/config/checkConfig",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "查看配置方案",
+				"app-plus" : {
+				    "titleNView" : false
+				}
+		    }
+		},
+		{
+		    "path" : "pages/checkConfig/basicConfig",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "查看基本参数",
+				"app-plus" : {
+				    "titleNView" : false
+				}
+		    }
+		},
+		{
+		    "path" : "pages/checkConfig/runConfig",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "查看运行参数",
+				"app-plus" : {
+				    "titleNView" : false
+				}
+		    }
+		},
+		{
+		    "path" : "pages/checkConfig/plusConfig",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "查看扩展参数",
+				"app-plus" : {
+				    "titleNView" : false
+				}
+		    }
+		},
+		{
+		    "path" : "pages/config/readConfig",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "查看配置",
+				"app-plus" : {
+				    "titleNView" : false
+				}
+		    }
+		},
+		{
+		    "path" : "pages/newConfig/basicConfig",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "新建基本配置",
+				"app-plus" : {
+				    "titleNView" : false
+				}
+		    }
+		},
+		{
+		    "path" : "pages/newConfig/plusConfig",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "新建扩展配置",
+				"app-plus" : {
+				    "titleNView" : false
+				}
+		    }
+		},
+		{
+		    "path" : "pages/newConfig/runConfig",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "新建运行配置",
+				"app-plus" : {
+				    "titleNView" : false
+				}
+		    }
+		},
+		{
+		    "path" : "pages/query/query",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "数据查询",
+				"app-plus" : {
+				    "titleNView" : false
+				}
+		    }
+		},
+		{
+		    "path" : "pages/downloads/downloads",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "下载文件",
+				"app-plus" : {
+				    "titleNView" : false
+				}
+		    }
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#FFFFFF"
+	}
+}

@@ -1,0 +1,148 @@
+.send-message1{
+	height: 100rpx;
+	width: 100%;
+	background: rgb(198, 218, 192);
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.send-message2{
+	height: 100rpx;
+	width: 100%;
+	background: rgb(192, 209, 223);
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.send-message3{
+	width: 100%;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20rpx;
+	flex-direction: column;
+}
+.send-message-text{
+	margin-left: 35rpx;
+}
+.icon-style{
+	margin-right: 35rpx;
+}
+.lanya-block{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	flex-direction: column;
+	margin-bottom: 30rpx;
+}
+.database-block{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 30rpx;
+}
+.lanya-style{
+	/* font-size: 20px; */
+	/* width: 100%; */
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30rpx;
+	margin-left: 35rpx;
+	margin-right: 35rpx;
+}
+.lanya-text{
+	color: rgb(56, 173, 21);
+}
+.error-text{
+	color: rgb(221, 56, 18);
+}
+.connectButton{
+	width: 150rpx;
+	height: 50rpx;
+	border: 1.5px solid rgb(71, 134, 206);
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgb(71, 134, 206);
+}
+.database-title{
+	display: flex;
+	height: 50rpx;
+	width: 100%;
+	justify-content: space-between;
+}
+.database-detail{
+	width: 100%;
+	margin-top: 15rpx;
+}
+.send-block{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 430rpx;
+	width: 100%;
+	margin-top: 10rpx;
+}
+.send-block-style{
+	width: 90%;
+	height: 90%;
+	border: 1.5px solid rgb(150, 150, 150);
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.send-text-style{
+	width: 90%;
+	height: 85%;
+	line-height: 30px;
+	font-size: 20px;
+}
+.button-block{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	font-size: 20px;
+	color: rgb(71, 134, 206);
+	margin-top: 10rpx;
+	margin-bottom: 35rpx;
+}
+.button-style{
+	border: 1.5px solid rgb(71, 134, 206);
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	height: 55rpx;
+	width: 285rpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 3px;
+}
+.add_button{
+	border: 1px solid rgb(150, 150, 150);
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+	width: 88%;
+	height: 60rpx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 2px;
+	margin-top: 11rpx;
+	margin-bottom: 30rpx;
+}
+.confirm_button{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
